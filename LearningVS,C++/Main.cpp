@@ -1,14 +1,12 @@
 #include <iostream>
 
-int Multiply(int a, int b)
+void Log(const char* messsage)
 {
-	return a * b;
+	std::cout << message << std::endl;
 }
 
 int main()
 {
-	int result = Multiply(3, 2);
-
-	std::cout << result << std::endl;
+	Log("Hello world!");
 	std::cin.get();
 }
